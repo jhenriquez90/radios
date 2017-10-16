@@ -1,0 +1,113 @@
+/* CSS Document */
+.left
+{
+	float: left;
+	width: 20%;
+	margin-left: 35%;
+}
+
+.right
+{
+	float: left;
+	width: 20%;
+	margin-left: 2%;
+	margin-right: 0%;
+}
+
+.pagina
+{
+	display: block;
+	width: 80%;
+	float:left;
+	margin-left:10%;
+}
+
+.titulos
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 20px;
+	text-transform: capitalize;
+	color: #000;
+	text-decoration: underline;
+}
+
+div,body,label,input,select
+{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 16px;
+}
+
+.pagina input[type="text"], .pagina textarea
+{
+	display: block;
+	width: 40% !important;
+}
+
+.pagina textarea{
+	resize:none; 
+	height:40%;		
+}
+
+
+/*.pagina input [type="submit"], .pagina textarea
+		{
+	position: relative;
+	display: inline-block;
+	margin-top: 0.5em;
+	padding: 7%;
+	background: #4196d9;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color: #FFF;
+	-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	cursor: pointer;
+
+
+		}
+
+			.button:hover
+			{
+				background: #2b7ec0;
+				color: #FFF !important;
+			}
+
+/*cuando el tamaño de la pantalla cambia toma estos valores*/
+@media only screen and (max-width: 640px)
+{
+	.pagina input[type="text"], .pagina textarea
+{
+	display: block;
+	width: 100% !important;
+}
+
+.pagina textarea
+{
+	resize:none; 
+	height:100%;		
+}
+.left
+{
+	float: left;
+	width: 40%;
+	margin-left: 10%;
+}
+
+.right
+{
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+}
+.pagina
+{
+	display: block;
+	width: 80%;
+	float:left;
+	margin-left:5%;
+}
+}

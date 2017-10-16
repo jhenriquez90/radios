@@ -1,0 +1,38 @@
+ .fondo{ background:url(fondos/pl.jpg) no-repeat center;
+
+}
+
+.fondo p {
+	color: #000;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+}
+.fondo #form1 label {
+	color: #000;
+}
+.fondo #form1 {
+	color: #00C;
+}
+
+.fondo h1 {
+	color: #FFF;
+}
+.fondo p strong em {
+	color: #F00;
+}
+.fondo p strong em {
+	color: #F00;
+}
+.fondo p strong em {
+	color: #FFF;
+}
+.fondo p strong em {
+	color: #FF0;
+}
+.fondo p strong em {
+	color: #FFF;
+}
+
+.img{
+	margin-left:2%;	
+}
